@@ -2,7 +2,7 @@
 % Script for fitting the univariate SV model by the state-space approach.
 % Implementation: Maria Kulikova
 % ------------------------------------------------------------------- 
-%  Model: This is the unrestricted model from in [1].
+%  Model: This is the unrestricted model in [1].
 %   log (y^2_t) = h_t + \varepsilon_t, \varepsilon_t \sim N(0,\sigma^2_{varepsilon})
 %           h_t = omega + phi h_{t-1} + eta_t, eta_t \sim N(0,\sigma^2_{eta}) 
 %  Conditional std (volatility): \sigma_t = exp(1/2 h_t)
