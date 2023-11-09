@@ -13,5 +13,6 @@ The codes have been presented here for their instructional value only. They have
 
 # List of the models and estimation methods used
 ### Stochastic volatility models:
-- `Fitting_SV1` is the script for the QML method (Harvey A., Ruiz E., Shephard N., 1994, <a href="https://doi.org/10.2307/2297980">DOI</a>) for estimating the SV models (type 1 parametrization) in a general setting, that is, log (y^2_t) = h_t + \varepsilon_t, \varepsilon_t \sim N(0,\sigma^2_{varepsilon}) and h_t = omega + phi h_{t-1} + eta_t, eta_t \sim N(0,\sigma^2_{eta}) where the volatility is \sigma_t = exp(1/2 h_t) and the system paraneters are 
+- `Fitting_SV1` is the script for the QML method (Harvey A., Ruiz E., Shephard N., 1994, <a href="https://doi.org/10.2307/2297980">DOI</a>) for estimating the SV models (type 1 parametrization) in a general setting, that is, the unrestricted model.
+  - `Fitting_GaussianSV1` is for estimating the SV1 model with Gaussian distribution assumption in the original model 
 
