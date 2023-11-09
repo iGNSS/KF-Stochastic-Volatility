@@ -4,7 +4,7 @@
 %   log (y^2_t) = -1.27 + h_t + \varepsilon_t, \varepsilon_t \sim N(0,pi^2/2 )
 %           h_t = omega + phi h_{t-1} + eta_t, eta_t \sim N(0,\sigma^2_{eta}) 
 %  Conditional std (volatility): \sigma_t = exp(1/2 h_t)
-%  Parameters: |phi|<1, \sigma^2_{eta}>0, \sigma^2_varepsilon>0, omega is any
+%  Parameters: |phi|<1, \sigma^2_{eta}>0, omega is any
 % ------------------------------------------------------------------- 
 % Casted into the State-space form: 
 %        x_k = F x_{k-1} + B ControlInput_k + G noise1_k, noise1_k \sim N(0,Q)
