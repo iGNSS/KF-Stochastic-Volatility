@@ -13,4 +13,4 @@ The codes have been presented here for their instructional value only. They have
 
 # List of the models and estimation methods used
 ### Stochastic volatility models:
-- `Fitting_SV1` is the script for the QML method (Harvey A., Ruiz E., Shephard N., 1994, <a href="https://doi.org/10.2307/2297980">DOI</a>) for estimating the SV models (type 1 parametrization).
+- `Fitting_SV1` is the script for the QML method (Harvey A., Ruiz E., Shephard N., 1994, <a href="https://doi.org/10.2307/2297980">DOI</a>) for estimating the SV models (type 1 parametrization) in a general setting.
