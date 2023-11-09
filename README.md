@@ -1,8 +1,11 @@
-# About
+# Kalman filter in econometrics
 Application of the state-space approach via the discrete-time linear Kalman filter for estimating the class of stochastic volatility models.
 
-# ReferencesEach code (implementation method) 
-includes the exact reference where the particular algorithm was published. If you use these codes in your research, please, cite the corresponding articles mentioned in the codes.# RemarkThe codes have been presented here for their instructional value only. They have been tested with care but are not guaranteed to be free of error and, hence, they should not be relied on as the sole basis to solve problems.
+# References
+Each code (implementation method) includes the exact reference where the particular algorithm was published. If you use these codes in your research, please, cite the corresponding articles mentioned in the codes.
+
+# Remark
+The codes have been presented here for their instructional value only. They have been tested with care but are not guaranteed to be free of error and, hence, they should not be relied on as the sole basis to solve problems.
 
 # Steps to reproduce
 - `Illustrate*` are the scripts that illustrate the obtained estimates (over time). You can find their call at the end of each script.
